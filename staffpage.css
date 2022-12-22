@@ -1,0 +1,32 @@
+img{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: black;
+}
+body{
+    background-color:tan;
+}
+.Staff{
+display: flex;
+
+justify-content: space-around;
+}
+.staff2{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    font-family: 'Dosis', sans-serif;
+
+}
+p{
+    font-family: 'Dosis', sans-serif;
+
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+}
+.Jarae{
+    display: flex;
+    align-items: flex-start;
+    align-content:space-between
+}
