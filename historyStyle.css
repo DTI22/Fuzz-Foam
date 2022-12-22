@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *{
@@ -61,68 +60,4 @@ h1{
 .abandonedCats{
     display: flex;
     justify-content: center;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-*{
-    box-sizing: border-box;
-}
-
-html, body, ul, li{
-    margin: 0;
-    padding:0;
-}
-
-body{
-    display: flex;
-    font-family:'Montserrat', sans-serif;
-    flex-direction: column;
-}
-
-.navRow{
-    display: flex;
-    background-color: #ecf0f1;
-    
-}
-
-.navRow>ul{
-    list-style: none;
-    display: flex;
-    width:100%;
-    justify-content: space-around;
-}
-
-.navRow>ul>li{
-    flex:1;
-    padding: 1em;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.logo{
-    background-color: #16a085;
-    color: white;
-    text-align: center;
-}
-
-h1{
-    text-transform: uppercase;
-}
-
-.ParkerRow{
-    background-color: #ecf0f1;
-    padding: 1.2em;
-}
-
-.centerContent>ul,li{
-    text-indent: 2em;
-}
-
-.abandonedCats{
-    display: flex;
-    justify-content: center;
->>>>>>> bed6ef9d1a326d8563ba8542600c5390116cad5c
 }
