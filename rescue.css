@@ -1,0 +1,11 @@
+.cats{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    justify-content: space-evenly;
+}
+.adopt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
