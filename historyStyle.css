@@ -17,7 +17,7 @@ body{
 
 .navRow{
     display: flex;
-    background-color: #ecf0f1;
+    background-color: #7f8c8d;
     
 }
 
@@ -101,12 +101,16 @@ h1{
 .bottomRow{
     font-weight: bolder;
     color: #c0392b;
-    background-color:#81ecec ;
+    background-color:#7f8c8d ;
     text-align: center;
 }
 
 .bottomRow>h3>span{
     text-transform:capitalize;
+}
+
+.bottomRow>p{
+    color: white;
 }
 
 
