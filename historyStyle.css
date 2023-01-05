@@ -17,7 +17,7 @@ body{
 
 .navRow{
     display: flex;
-    background-color: #7f8c8d;
+    background-color: #bdc3c7;
     
 }
 
@@ -101,7 +101,7 @@ h1{
 .bottomRow{
     font-weight: bolder;
     color: #c0392b;
-    background-color:#7f8c8d ;
+    background-color:#bdc3c7 ;
     text-align: center;
 }
 
