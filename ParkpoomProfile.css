@@ -1,0 +1,35 @@
+body{
+    background-color: #ecf0f1;
+}
+
+.profileRow{
+    align-items: center;
+}
+.contentCenter{
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+
+.pix {
+    padding: 30px;
+}
+
+.profile{
+    padding: 30px;
+}
+
+.title{
+    background-color: #8e44ad;
+    color: white;
+    padding: 2px;
+    padding-left: 20px;
+}
+
+.content{
+    background-color: white;
+    padding:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
