@@ -82,10 +82,34 @@ li {
 }
 
 /* Rotating box */
-.cafe-logo {
+.cafe-logo-1 {
   width: 100vw;
-  height: 80vh;
+  height: 48vh;
   display: flex;
+  margin-left: 15vw;
+  justify-content: left;
+  align-items: center;
+  font-size: 80px;
+  font-weight: bolder;
+  color: #F4A261;
+}
+
+.cafe-logo-2 {
+  width: 100vw;
+  height: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-weight: bolder;
+  color: #F4A261;
+}
+
+.cafe-logo-3 {
+  width: 100vw;
+  height: 48vh;
+  display: flex;
+  margin-left: 18vw;
   justify-content: center;
   align-items: center;
   font-size: 80px;
