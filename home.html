@@ -12,10 +12,8 @@
     <div class="logo"><h3>F & F Cafe & Grooming</h3></div>
     <ul class="nav-links">
       <div class="lists">
-        <li class="home"><a href="">Home</a></li>
-        <li class="about"><a href="/History.html">About</a></li>
         <li class="home"><a href="/home.html">Home</a></li>
-        <li class="about"><a href="">About</a></li>
+        <li class="about"><a href="/History.html">About</a></li>
         <li class="rescue"><a href="/rescue.html">Cat Rescue</a></li>
         <li class="livestream"><a href="/livestream.html">Livestream</a></li>
         <li class="service"><a href="">Service</a></li>
@@ -43,24 +41,24 @@
     </div>
     <div class="flip-card-container">
       <div class="flip-card">
-        <div class="flip-card-front">U</div>
-        <div class="flip-card-back">
+        <div class="flip-card-front-1">U</div>
+        <div class="flip-card-back-1">
           <img src="" alt="">
         </div>
       </div>
     </div>
     <div class="flip-card-container">
       <div class="flip-card">
-        <div class="flip-card-front">Z</div>
-        <div class="flip-card-back">
+        <div class="flip-card-front-2">Z</div>
+        <div class="flip-card-back-2">
           <img src="" alt="">
         </div>
       </div>
     </div>
     <div class="flip-card-container">
       <div class="flip-card">
-        <div class="flip-card-front">Z</div>
-        <div class="flip-card-back">
+        <div class="flip-card-front-3">Z</div>
+        <div class="flip-card-back-3">
           <img src="" alt="">
         </div>
       </div>
@@ -73,27 +71,51 @@
         <div class="flip-card-back">&</div>
       </div>
     </div>
+    <div>
+      <button onclick="document.getElementById('rescue-request').style.display='block'" style="width:auto;">Rescue Request</button>
+      <div id="rescue-request" class="rescue">
+        <span onclick="document.getElementById('rescue-request').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form action="/action_page.php" class="rescue-request-content">
+          <div class="container">
+            <h1>Sign Up</h1>
+            <p>Please fill out the necessary information</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <label for="location"><b>Location</b></label>
+            <input type="text" placeholder="Enter the Location" name="location" required>
+            <label for="detail"><b>Detail</b></label>
+            <input type="text" placeholder="Enter the Details" name="detail" required>
+            <p>By requesting this you agree to our Terms & Privacy</p>
+            <div class="clearfix">
+              <button type="button" onclick="document.getElementById('rescue-request').style.display='none'" class="cancelbtn">Cancel</button>
+              <button type="submit" class="requestbtn">Request</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
   </section>
   <section class="cafe-logo-3">
     <div class="flip-card-container">
       <div class="flip-card">
-        <div class="flip-card-front">F</div>
-        <div class="flip-card-back">
+        <div class="flip-card-front-1">F</div>
+        <div class="flip-card-back-1">
           <img src="" alt="">
         </div>
       </div>
     </div>
     <div class="flip-card-container">
       <div class="flip-card">
-        <div class="flip-card-front">O</div>
-        <div class="flip-card-back">
+        <div class="flip-card-front-2">O</div>
+        <div class="flip-card-back-2">
           <img src="" alt=""></div>
       </div>
     </div>
     <div class="flip-card-container">
       <div class="flip-card">
-        <div class="flip-card-front">A</div>
-        <div class="flip-card-back">
+        <div class="flip-card-front-3">A</div>
+        <div class="flip-card-back-3">
           <img src="" alt="">
         </div>
       </div>
@@ -107,5 +129,15 @@
       </div>
     </div>
   </section>
+
+  <!-- Rescue request button function-->
+<script>
+  var rescue = document.getElementById('rescue-request');
+  window.onclick = function(event) {
+    if (event.target == rescue) {
+      rescue.style.display = "none";
+    }
+  }
+</script>
 </body>
 </html>
