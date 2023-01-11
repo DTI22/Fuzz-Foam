@@ -1,11 +1,13 @@
 img{
-    border: 2px solid rgb(0, 0, 0);
-    background-color: black;
-    
+    border: solid 2px #2A9D8F;
+
+  
+
+    display: flex;
 }
 body{
   color:black;
-    background-color:rgb(236, 179, 73);
+  
     
 }
 .Staff{
