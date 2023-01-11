@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
+/* *{
     box-sizing: border-box;
 }
+
 
 html, body, ul, li{
     margin: 0;
     padding:0;
-}
+}*/
 
 body{
     display: flex;
@@ -131,6 +132,7 @@ h1{
     list-style: none;
   }
   
+
   .navbar {
     display: flex;
     align-items: center;
