@@ -1,3 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+a{
+    text-decoration: none;
+  }
+  
+li{
+    list-style: none;
+  }
 
 body{
     background-color: #ecf0f1;
@@ -34,3 +47,73 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2A9D8F;
+    color:black;
+  }
+  
+  .nav-links a {
+    color:#E9C46A;
+    font-weight: 600;
+  
+  }
+  
+  .logo {
+    color: #F4A261;
+  }
+  
+  .lists {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    
+  }
+  
+  .lists li a:hover {
+    border-radius: 5px;
+    transition: 0.3s ease;
+    color: #cfab4f;
+  }
+  
+  .lists li a {
+    padding: 5px 14px;
+  }
+  
+  .contact {
+    position: relative;
+  }
+  
+  .staff-list {
+    background-color: #2A9D8F;
+    padding: 1em 0;
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+    top: 24px;
+  }
+  
+  .staff-list li + li {
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .staff-list li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: left;
+  }
+  
+  .staff-list li:hover {
+    background-color: #264653;
+  }
+  
+  .contact:hover .staff-list {
+    display: block;
+  }
+  
