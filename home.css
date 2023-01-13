@@ -206,6 +206,12 @@ li {
   transform: rotateY(180deg);
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
 /* Rescue Request btn */
 
 input[type=text], input[type=password] {
@@ -248,7 +254,10 @@ button:hover {
 
 .cancelbtn, .requestbtn {
   float: left;
-  width: 50%
+  width: 50%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 30px;
 }
 
 .container {
