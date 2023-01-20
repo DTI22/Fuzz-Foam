@@ -165,16 +165,6 @@ h2{
     border-radius: 0.5rem;
   }
   
-  .flip-card-front {
-    background-color: #2A9D8F;
-    color: ;
-  }
-  
-  .flip-card-back {
-    background-color: #264653;
-    color: ;
-    transform: rotateY(180deg);
-  }
   h4{
     color: #2A9D8F;
     font-family: 'Dosis', sans-serif;
